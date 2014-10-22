@@ -1,0 +1,150 @@
+@media print {
+	body {font: 0.9em/1.5em Arial, Helvetica, sans-serif; background: white;}
+	#top {display:none;}
+	}
+
+body {
+    margin-left: 10%;
+    margin-top: 1em;
+    margin-right: 10%;
+    background: #E0EEE0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  	#545454;
+    }
+    
+h3  {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  	#545454;
+    }
+    
+img {
+	padding-right: 10px;
+	}       
+	
+img#me {
+	width: 150px;
+	padding: 10px;
+	float: right;
+	}
+	
+img#centerpiece {
+	width: 200px;
+	padding: 10px;
+	float: left;
+	}
+		
+    
+ #top {
+	clear: both;
+	margin-left: 2%;
+	margin-right: 2%;
+	overflow: hidden;
+	text-align: center;
+}
+
+#top ul {
+	list-style: none;
+	float: left;
+	}
+
+#top ul li {
+	list-style: none;
+	float: left;
+	white-space: nowrap;
+}
+
+#top a {
+	float: left;
+	display: block;
+	color: #545454;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 15px 10px;
+	font-size: 13px;
+	list-style-type: none;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+#top #currentpage a {
+	color: #545454;
+	background: #FFF8DC;
+	border: 0;
+	font-weight: bold; 
+	} 
+
+#top a:hover {
+	color: #545454;
+	background: #E5E4E2;
+	border: 0;
+}
+	
+header {
+	text-indent: 200%;
+	overflow: hidden;
+	white-space: nowrap;
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	height: 120px;
+ 	}	    
+    
+fieldset	{
+	border-style:double;
+    border-color:  	#545454;
+    margin-bottom:2%;
+}
+
+.submit 	{
+	background: #dcf7f7;
+	color: #545454;
+	width: 100px;
+    height: 60px;
+    font-size: 1.5em;
+	}   
+
+	
+#accordion img {
+	float: left;
+	padding: 10px;
+	}
+	
+.fotorama {
+	margin-left: 15%;
+	margin-right: 15%;
+	}	
+	
+#footer {
+	float: left;
+	padding: 20px 0 20px;
+	font-size: 12px;
+	color: #545454;
+	font-family: Arial, sans-serif;
+}
+
+#footer ul {
+	color: #545454;
+	list-style-type: none;
+	float: left;
+}
+
+#footer ul li { 
+	color: #545454;
+	list-style-type: none;
+	float: left;
+	padding: 5px 5px 5px;
+	white-space: nowrap;
+}
+
+#footer ul li a { 
+	color: #545454;
+	list-style-type: none;
+	float: left;
+	padding: 10px 8px 10px;
+	text-decoration: underline;
+}
+
+a:hover { text-decoration: underline; color: #545454;}
+  
